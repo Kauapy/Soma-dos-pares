@@ -1,0 +1,8 @@
+soma = 0
+contador = 0
+for x in range(1,7):
+    numero=int(input(f'Digite o {x} valor: '))
+    if(numero % 2 == 0):
+        soma += numero
+        contador += +1
+print(f'Você informou {numero} números PARES e a soma é de {soma}')
